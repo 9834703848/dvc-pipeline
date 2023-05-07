@@ -1,2 +1,2 @@
-# dvc_pipeline
+# dvc-pipeline
 Automating ml pipelines
