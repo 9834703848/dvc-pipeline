@@ -11,7 +11,7 @@ setup(
     long_description=long_description,
     long_description_content_type="text/markdown",
     url="https://github.com/9834703848/dvc-pipeline",
-    author_email="sunny.c17hawke@gmail.com",
+    author_email="maddeshrinath@gmail.com",
     # package_dir={"": "src"},
     # packages=find_packages(where="src"),
     packages=["src"],
