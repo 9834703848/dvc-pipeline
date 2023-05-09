@@ -1,7 +1,7 @@
 base:
   project: simple-dvc-project
   random_state: 42
-  target_col: quality
+  target_col: "cnt"
   test_size: 0.2
 
 data_source:
