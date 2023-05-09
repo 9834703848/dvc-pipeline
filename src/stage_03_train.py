@@ -39,8 +39,8 @@ def train(config_path):
     #print(train["cnt"])
     train_y = train[target]
     
-    train_x = train.drop(target, axis=1)
-    train_x = train.drop("dteday", axis=1)
+    train_x = train.drop([target,"dteday"], axis=1)
+    
     
     lr = ElasticNet(alpha=alpha, l1_ratio=l1_ratio, random_state=random_seed)
     lr.fit(train_x, train_y)
